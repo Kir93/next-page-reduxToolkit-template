@@ -18,10 +18,10 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 
 NextJS Simple Template
 
-FrameWork : NextJS
-Styling : Styled Components, Antd Theme
-Store : redux-toolkit
-Test : Cypress
+- FrameWork : NextJS
+- Styling : Styled Components, Antd Theme
+- Store : redux-toolkit
+- Test : Cypress
 
 ## Package Version
 
