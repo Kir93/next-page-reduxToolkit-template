@@ -1,7 +1,7 @@
 import { logIn, logOut } from '@APIs/user/user';
 import { createSlice } from '@reduxjs/toolkit';
 
-import { IUser } from './interface.d';
+import { IUser } from './user.types';
 
 export const initialState = {
   me: null as IUser | null,

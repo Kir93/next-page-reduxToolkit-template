@@ -2,7 +2,7 @@ import { remove } from 'lodash';
 import { createSlice } from '@reduxjs/toolkit';
 
 import { loadPosts } from '@APIs/post/post';
-import { IPost } from './interface.d';
+import { IPost } from './post.types';
 
 export const initialState = {
   mainPosts: [] as IPost[],
