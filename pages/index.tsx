@@ -4,7 +4,7 @@ import CustomColorBar from '@atoms/CustomColorBar/CustomColorBar';
 import CommonBar from '@components/Common/CommonBar';
 import DefaultComponents from '@components/DefaultComponents/DefaultComponents';
 import wrapper from '@configs/configureStore';
-import { loadPosts } from '@APIs/post';
+import { loadPosts } from '@APIs/post/post';
 
 const Index: FC = () => (
   <>

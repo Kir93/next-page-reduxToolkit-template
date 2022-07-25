@@ -1,7 +1,7 @@
 import { remove } from 'lodash';
 import { createSlice } from '@reduxjs/toolkit';
 
-import { loadPosts } from '@APIs/post';
+import { loadPosts } from '@APIs/post/post';
 import { IPost } from './interface.d';
 
 export const initialState = {

@@ -1,4 +1,4 @@
-import { logIn, logOut } from '@APIs/user';
+import { logIn, logOut } from '@APIs/user/user';
 import { createSlice } from '@reduxjs/toolkit';
 
 import { IUser } from './interface.d';
