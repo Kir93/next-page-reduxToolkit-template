@@ -16,7 +16,7 @@ const Index: FC = () => (
 );
 
 export const getServerSideProps = wrapper.getServerSideProps((store) => async () => {
-  await store.dispatch(loadPosts(10));
+  await store.dispatch(loadPosts({ lastId: 10 }));
   return { props: {} };
 });
 
