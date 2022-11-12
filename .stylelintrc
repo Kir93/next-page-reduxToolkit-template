@@ -1,5 +1,5 @@
 {
-  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "extends": ["stylelint-config-recess-order"],
   "customSyntax": "postcss-jsx",
   "overrides": [
     {
@@ -9,11 +9,11 @@
   ],
   "rules": {
     "no-empty-first-line": null,
-    "function-no-unknown": null,
     "string-quotes": "single",
     "declaration-colon-newline-after": null,
     "value-list-comma-newline-after": null,
     "value-keyword-case": null,
-    "function-name-case": null
+    "function-name-case": null,
+    "function-no-unknown": null
   }
 }
