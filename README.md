@@ -32,4 +32,4 @@ Important library version history
 | next              | v13.0.3 |
 | styled-components | v5.3.6  |
 | antd              | v5.0.3  |
-| redux-toolkit     | v1.9.0  |
+| redux-toolkit     | v1.9.1  |
