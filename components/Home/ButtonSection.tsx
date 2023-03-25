@@ -1,23 +1,23 @@
 import React, { FC, memo, useCallback, useState } from 'react';
 import equal from 'fast-deep-equal';
 import { Button } from 'antd';
-
-import D from './DefaultComponents.styles';
+import { HS } from '.';
 
 interface IProps {
   hello?: boolean;
 }
 
-const DefaultComponents: FC<IProps> = ({ hello }) => {
+const ButtonSection: FC<IProps> = ({ hello }) => {
   const [test, setTest] = useState(false);
   const onClickTest = useCallback(() => setTest(!test), [test]);
   return (
     <>
+      <HS.Text>컴포넌트의 경우 state 존재{test && !hello ? '유무로' : ''}</HS.Text>
       <Button onClick={onClickTest}>
-        <D.Text>컴포넌트의 경우 state 존재{test && !hello ? '유무로' : ''}</D.Text>
+        <HS.Text>Test</HS.Text>
       </Button>
     </>
   );
 };
 
-export default memo(DefaultComponents, equal);
+export default memo(ButtonSection, equal);
