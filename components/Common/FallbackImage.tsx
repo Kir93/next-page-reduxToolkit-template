@@ -8,7 +8,7 @@ interface IProps extends ImageProps {
   fallbackSrc: string;
 }
 
-const ImageFallback: FC<IProps> = (props) => {
+const FallbackImage: FC<IProps> = (props) => {
   const { src, fallbackSrc, alt, ...rest } = props;
   const [imgSrc, setImgSrc] = useState(false);
   const [oldSrc, setOldSrc] = useState(src);
@@ -31,4 +31,4 @@ const ImageFallback: FC<IProps> = (props) => {
   );
 };
 
-export default memo(ImageFallback, equal);
+export default memo(FallbackImage, equal);
