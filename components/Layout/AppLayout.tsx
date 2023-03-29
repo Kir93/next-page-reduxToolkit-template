@@ -1,8 +1,10 @@
 import React from 'react';
-import L from './Layout.styles';
+import { LS } from '.';
 
-const AppLayout = ({ children }: { children: React.ReactElement }): React.ReactElement => (
-  <L.Container>{children}</L.Container>
-);
+interface IProps {
+  children: React.ReactElement;
+}
+
+const AppLayout: React.FC<IProps> = ({ children }) => <LS.Container>{children}</LS.Container>;
 
 export default AppLayout;
