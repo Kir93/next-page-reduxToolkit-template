@@ -38,7 +38,7 @@
     "react-redux": "^8.0.5",
     "react-use": "^17.4.0",
     "redux": "^4.2.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "@cypress/react": "^7.0.1",
