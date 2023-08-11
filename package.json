@@ -43,7 +43,7 @@
   "devDependencies": {
     "@cypress/react": "^7.0.3",
     "@cypress/webpack-dev-server": "^3.5.0",
-    "@next/bundle-analyzer": "^13.4.9",
+    "@next/bundle-analyzer": "^13.4.13",
     "@testing-library/cypress": "^9.0.0",
     "@types/lodash": "^4.14.188",
     "@types/react": "^18.2.18",
