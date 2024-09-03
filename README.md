@@ -1,9 +1,9 @@
-# Next Redux-Toolkit Template
+# Next Page Redux-Toolkit Template
 
 ## Quick Start
 
 ```
-https://github.com/Kir93/next-reduxToolkit-template.git use this template and make project
+https://github.com/Kir93/next-page-reduxToolkit-template.git use this template and make project
 git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
 
@@ -15,21 +15,19 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 
 ## Repository short explanation
 
-NextJS Simple Template
+NextJS Page Route Simple Template
 
 - FrameWork : NextJS
-- Styling : Styled Components, Antd Theme
-- Store : redux-toolkit
-- Test : Cypress
+- Styling : ChakraUI
+- Store/API : Redux Toolkit
 
 ## Package Version
 
 Important library version history
 
-| Name              | Version |
-| :---------------- | :------ |
-| react             | v18.2.0 |
-| next              | v13.0.3 |
-| styled-components | v5.3.6  |
-| antd              | v5.0.3  |
-| redux-toolkit     | v1.9.1  |
+| Name          | Version |
+| :------------ | :------ |
+| react         | v18.3.1 |
+| next          | v14.2.5 |
+| chakra-ui     | v5.0.3  |
+| redux-toolkit | v2.2.7  |
