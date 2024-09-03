@@ -1,4 +1,4 @@
-import { AnyAction, CombinedState, combineReducers } from 'redux';
+import { combineReducers, AnyAction } from 'redux';
 import { HYDRATE } from 'next-redux-wrapper';
 
 import userSlice, { UserReducerState } from './user';
@@ -9,14 +9,14 @@ export interface IState {
   post: PostReducerState;
 }
 
-const rootReducer = (state: IState, action: AnyAction): CombinedState<IState> => {
+const rootReducer = (state: IState, action: AnyAction) => {
   switch (action.type) {
     case HYDRATE:
       return action.payload;
     default: {
       const combinedReducer = combineReducers({
         user: userSlice.reducer,
-        post: postSlice.reducer,
+        post: postSlice.reducer
       });
       return combinedReducer(state, action);
     }
