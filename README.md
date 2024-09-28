@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-```
+```zsh
 https://github.com/Kir93/next-page-reduxToolkit-template.git use this template and make project
 git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
