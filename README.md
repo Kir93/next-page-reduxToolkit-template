@@ -25,9 +25,9 @@ NextJS Page Route Simple Template
 
 Important library version history
 
-| Name          | Version |
-| :------------ | :------ |
-| react         | v18.3.1 |
-| next          | v14.2.5 |
-| chakra-ui     | v5.0.3  |
-| redux-toolkit | v2.2.7  |
+| Name          | Version  |
+| :------------ | :------- |
+| react         | v18.3.1  |
+| next          | v14.2.13 |
+| chakra-ui     | v2.8.2   |
+| redux-toolkit | v2.2.7   |
