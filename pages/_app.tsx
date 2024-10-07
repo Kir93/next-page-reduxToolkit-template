@@ -8,6 +8,8 @@ import wrapper from '@configs/configureStore';
 import AppLayout from '@components/Layout/AppLayout';
 
 import { notoSans } from '@configs/bigContents';
+import { ChakraProvider } from '@chakra-ui/react';
+import { theme } from '@styles/theme';
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => (
   <>
@@ -22,11 +24,13 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
       <title>Next Page ReduxToolkit Template</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
-    <AppLayout>
-      <main>
-        <Component {...pageProps} />
-      </main>
-    </AppLayout>
+    <ChakraProvider theme={theme}>
+      <AppLayout>
+        <main>
+          <Component {...pageProps} />
+        </main>
+      </AppLayout>
+    </ChakraProvider>
   </>
 );
 
