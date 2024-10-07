@@ -1,8 +1,8 @@
-import { remove } from 'lodash';
 import { createSlice } from '@reduxjs/toolkit';
 
 import { loadPosts } from '@APIs/post/post';
 import { IPost } from './post.types';
+import { filter } from 'es-toolkit/compat';
 
 export const initialState = {
   mainPosts: [] as IPost[],
@@ -24,7 +24,7 @@ export const initialState = {
 
   addCommentLoading: false,
   addCommentDone: false,
-  addCommentError: '',
+  addCommentError: ''
 };
 
 export type PostReducerState = typeof initialState;
@@ -34,8 +34,8 @@ const postSlice = createSlice({
   initialState,
   reducers: {
     removeImage(state, action) {
-      state.imagePaths = remove(state.imagePaths, (_, i) => i === action.payload);
-    },
+      state.imagePaths = filter(state.imagePaths, (_, i) => i !== action.payload);
+    }
   },
   extraReducers: (builder) =>
     builder
@@ -53,7 +53,7 @@ const postSlice = createSlice({
         state.loadPostsLoading = false;
         state.loadPostsError = action.error.message ?? '';
       })
-      .addDefaultCase((state) => state),
+      .addDefaultCase((state) => state)
 });
 
 export default postSlice;
