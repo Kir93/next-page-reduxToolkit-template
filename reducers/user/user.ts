@@ -12,7 +12,7 @@ export const initialState = {
 
   logOutLoading: false,
   logOutDone: false,
-  logOutError: '',
+  logOutError: ''
 };
 
 export type UserReducerState = typeof initialState;
@@ -20,13 +20,20 @@ export type UserReducerState = typeof initialState;
 const dummyUser = {
   id: 1,
   nickname: '티릴리',
-  Posts: [{ id: '1' }],
+  Posts: [{ id: '1' }]
 };
 
 const userSlice = createSlice({
   name: 'user',
   initialState,
-  reducers: {},
+  reducers: {
+    login: (state) => {
+      state.me = dummyUser;
+    },
+    logout: (state) => {
+      state.me = null;
+    }
+  },
   extraReducers: (builder) =>
     builder
       .addCase(logIn.pending, (state) => {
@@ -57,7 +64,9 @@ const userSlice = createSlice({
         state.logOutLoading = false;
         state.logOutError = action.error.message ?? '';
       })
-      .addDefaultCase((state) => state),
+      .addDefaultCase((state) => state)
 });
+
+export const { login, logout } = userSlice.actions;
 
 export default userSlice;
