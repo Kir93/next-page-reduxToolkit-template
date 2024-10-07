@@ -1,5 +1,4 @@
-import React, { FC, memo } from 'react';
-import equal from 'fast-deep-equal';
+import React, { FC } from 'react';
 
 import { Box } from '@chakra-ui/react';
 
@@ -11,4 +10,4 @@ const CustomColorBar: FC<IProps> = ({ color }) => (
   <Box w="100vw" h="2px" m="15px auto" bgColor={color} />
 );
 
-export default memo(CustomColorBar, equal);
+export default CustomColorBar;

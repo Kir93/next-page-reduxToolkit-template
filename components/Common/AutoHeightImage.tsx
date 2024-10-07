@@ -1,5 +1,4 @@
-import React, { memo } from 'react';
-import equal from 'fast-deep-equal';
+import React from 'react';
 import { Image, ImageProps } from '@chakra-ui/next-js';
 
 interface IAutoHeightImage extends Omit<ImageProps, 'width'> {
@@ -11,4 +10,4 @@ const AutoHeightImage = ({ width = '100%', alt = '', ...props }: IAutoHeightImag
   <Image {...props} w={width} alt={alt} h="auto" />
 );
 
-export default memo(AutoHeightImage, equal);
+export default AutoHeightImage;
