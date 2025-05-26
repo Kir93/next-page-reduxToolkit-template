@@ -28,7 +28,7 @@
     "@chakra-ui/react": "^3.17.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@reduxjs/toolkit": "^2.7.0",
+    "@reduxjs/toolkit": "^2.8.2",
     "dayjs": "^1.11.13",
     "es-toolkit": "^1.38.0",
     "framer-motion": "^12.11.0",
