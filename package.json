@@ -42,7 +42,7 @@
     "redux": "^5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^22.15.3",
+    "@types/node": "^22.15.21",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "cross-env": "^7.0.3",
