@@ -7,14 +7,14 @@ import wrapper from 'config/configureStore';
 
 import CommonBar from '@atoms/common/CommonBar';
 
-import { ButtonSection, ReducerButtonSection } from '@components/homes';
+import { ButtonSection, ReducerButtonSection } from '@components/home';
 
 const Home: FC = () => (
   <>
     <ButtonSection />
     <Text fontSize="lg">Home Style!</Text>
     <CommonBar />
-    <Button display="block" mb="10px" colorScheme="primary">
+    <Button display="block" mb="10px" colorPalette="primary">
       Hello~~~~~
     </Button>
     <ReducerButtonSection />

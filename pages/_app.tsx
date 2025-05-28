@@ -9,7 +9,7 @@ import theme from '@styles/theme';
 import { notoSans } from '@config/bigContents';
 import wrapper from '@config/configureStore';
 
-import { AppLayout } from '@components/layouts';
+import { AppLayout } from '@components/layout';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => (
   <>

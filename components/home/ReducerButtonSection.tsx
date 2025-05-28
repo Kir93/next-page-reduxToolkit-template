@@ -18,7 +18,11 @@ const ReducerButtonSection: FC = () => {
   };
 
   return (
-    <Button colorScheme="primary" onClick={onClickButton}>
+    <Button
+      colorPalette="primary"
+      variant={me === null ? 'solid' : 'outline'}
+      onClick={onClickButton}
+    >
       {me === null ? 'Log In' : 'Log Out'}
     </Button>
   );

@@ -12,7 +12,7 @@ const ButtonSection: FC<IProps> = ({ hello }) => {
   return (
     <>
       <Text fontSize="lg">컴포넌트의 경우 state 존재{test && !hello ? '유무로' : ''}</Text>
-      <Button colorScheme="primary" onClick={onClickTest}>
+      <Button colorPalette="primary" onClick={onClickTest}>
         Test
       </Button>
     </>
