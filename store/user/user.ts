@@ -1,5 +1,6 @@
-import { logIn, logOut } from '@APIs/user/user';
 import { createSlice } from '@reduxjs/toolkit';
+
+import { logIn, logOut } from 'api/user/user';
 
 import { IUser } from './user.types';
 
@@ -17,11 +18,7 @@ export const initialState = {
 
 export type UserReducerState = typeof initialState;
 
-const dummyUser = {
-  id: 1,
-  nickname: '티릴리',
-  Posts: [{ id: '1' }]
-};
+const dummyUser = { id: 1, nickname: '티릴리', Posts: [{ id: '1' }] };
 
 const userSlice = createSlice({
   name: 'user',

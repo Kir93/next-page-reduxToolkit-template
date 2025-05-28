@@ -1,8 +1,8 @@
-import { combineReducers, AnyAction } from 'redux';
 import { HYDRATE } from 'next-redux-wrapper';
+import { combineReducers, AnyAction } from 'redux';
 
-import userSlice, { UserReducerState } from './user';
 import postSlice, { PostReducerState } from './post';
+import userSlice, { UserReducerState } from './user';
 
 export interface IState {
   user: UserReducerState;

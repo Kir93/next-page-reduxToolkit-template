@@ -1,17 +1,17 @@
-import '@styles/global.css';
+import { FC } from 'react';
 
-import React from 'react';
-import Head from 'next/head';
-import { AppProps } from 'next/app';
-
-import wrapper from '@configs/configureStore';
-import AppLayout from '@components/Layout/AppLayout';
-
-import { notoSans } from '@configs/bigContents';
 import { ChakraProvider } from '@chakra-ui/react';
-import { theme } from '@styles/theme';
+import { AppProps } from 'next/app';
+import Head from 'next/head';
 
-const App: React.FC<AppProps> = ({ Component, pageProps }) => (
+import theme from '@styles/theme';
+
+import { notoSans } from '@config/bigContents';
+import wrapper from '@config/configureStore';
+
+import { AppLayout } from '@components/layouts';
+
+const App: FC<AppProps> = ({ Component, pageProps }) => (
   <>
     <style jsx global>
       {`
@@ -24,7 +24,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
       <title>Next Page ReduxToolkit Template</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
-    <ChakraProvider theme={theme}>
+    <ChakraProvider value={theme}>
       <AppLayout>
         <main>
           <Component {...pageProps} />

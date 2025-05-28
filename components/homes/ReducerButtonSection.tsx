@@ -1,8 +1,12 @@
+import { FC } from 'react';
+
 import { Button } from '@chakra-ui/react';
-import { login, logout } from '@reducers/user';
+
+import { login, logout } from 'store/user';
+
 import { useTypeDispatch, useTypeSelector } from '@utils/useTypeRedux';
 
-const ReducerButtonSection: React.FC = () => {
+const ReducerButtonSection: FC = () => {
   const dispatch = useTypeDispatch();
   const { me } = useTypeSelector((state) => state.user);
   const onClickButton = () => {
