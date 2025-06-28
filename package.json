@@ -25,12 +25,12 @@
   ],
   "dependencies": {
     "@chakra-ui/next-js": "^2.4.2",
-    "@chakra-ui/react": "^3.20.0",
+    "@chakra-ui/react": "^3.21.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@reduxjs/toolkit": "^2.7.0",
     "dayjs": "^1.11.13",
-    "es-toolkit": "^1.39.3",
+    "es-toolkit": "^1.39.4",
     "framer-motion": "^12.19.1",
     "next": "latest",
     "next-redux-wrapper": "^8.1.0",
@@ -44,7 +44,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.29.0",
-    "@next/eslint-plugin-next": "^15.3.3",
+    "@next/eslint-plugin-next": "^15.3.4",
     "@types/node": "^24.0.3",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
@@ -58,7 +58,7 @@
     "globals": "^16.2.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "typescript": "^5.8.3"
   },
   "lint-staged": {
