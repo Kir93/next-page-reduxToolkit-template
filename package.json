@@ -22,14 +22,11 @@
     "not ie <= 11"
   ],
   "dependencies": {
-    "@chakra-ui/next-js": "^2.4.2",
     "@chakra-ui/react": "^3.21.0",
     "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
     "@reduxjs/toolkit": "^2.7.0",
     "dayjs": "^1.11.13",
     "es-toolkit": "^1.39.4",
-    "framer-motion": "^12.19.1",
     "next": "latest",
     "next-redux-wrapper": "^8.1.0",
     "next-sitemap": "^4.2.3",
