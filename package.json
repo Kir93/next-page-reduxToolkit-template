@@ -9,8 +9,6 @@
     "postbuild": "next-sitemap --config sitemap.config.js",
     "start": "cross-env NODE_ENV=production next start",
     "analyzer": "cross-env NODE_ENV=production ANALYZE=true next build",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
     "type-check": "tsc",
     "depcheck": "npx depcheck",
     "svgo": "npx svgo -f public/svgs",
