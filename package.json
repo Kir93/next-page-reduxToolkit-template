@@ -54,7 +54,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "lint-staged": {
     "**/*.{tsx,ts,jsx,js}": [
