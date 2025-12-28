@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@chakra-ui/react':
         specifier: ^3.29.0
-        version: 3.30.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@19.2.3))(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+        version: 3.30.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@emotion/react':
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.2.7)(react@19.2.3)
@@ -25,25 +25,25 @@ importers:
         version: 1.42.0
       next:
         specifier: latest
-        version: 16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+        version: 16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       next-redux-wrapper:
         specifier: ^8.1.0
-        version: 8.1.0(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3))(react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3)
+        version: 8.1.0(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3)
       next-sitemap:
         specifier: ^4.2.3
-        version: 4.2.3(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3))
+        version: 4.2.3(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
       react:
         specifier: ^19
         version: 19.2.3
       react-dom:
         specifier: ^19
-        version: 19.2.1(react@19.2.3)
+        version: 19.2.3(react@19.2.3)
       react-redux:
         specifier: ^9.2.0
         version: 9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1)
       react-use:
         specifier: ^17.6.0
-        version: 17.6.0(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+        version: 17.6.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       redux:
         specifier: ^5.0.1
         version: 5.0.1
@@ -2079,10 +2079,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.2.1:
-    resolution: {integrity: sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==}
+  react-dom@19.2.3:
+    resolution: {integrity: sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==}
     peerDependencies:
-      react: ^19.2.1
+      react: ^19.2.3
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -2508,7 +2508,7 @@ packages:
 
 snapshots:
 
-  '@ark-ui/react@5.29.1(react-dom@19.2.1(react@19.2.3))(react@19.2.3)':
+  '@ark-ui/react@5.29.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@internationalized/date': 3.10.0
       '@zag-js/accordion': 1.29.1
@@ -2554,7 +2554,7 @@ snapshots:
       '@zag-js/qr-code': 1.29.1
       '@zag-js/radio-group': 1.29.1
       '@zag-js/rating-group': 1.29.1
-      '@zag-js/react': 1.29.1(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+      '@zag-js/react': 1.29.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@zag-js/scroll-area': 1.29.1
       '@zag-js/select': 1.29.1
       '@zag-js/signature-pad': 1.29.1
@@ -2574,7 +2574,7 @@ snapshots:
       '@zag-js/types': 1.29.1
       '@zag-js/utils': 1.29.1
       react: 19.2.3
-      react-dom: 19.2.1(react@19.2.3)
+      react-dom: 19.2.3(react@19.2.3)
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -2678,9 +2678,9 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@chakra-ui/react@3.30.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@19.2.3))(react-dom@19.2.1(react@19.2.3))(react@19.2.3)':
+  '@chakra-ui/react@3.30.0(@emotion/react@11.14.0(@types/react@19.2.7)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
-      '@ark-ui/react': 5.29.1(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+      '@ark-ui/react': 5.29.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@emotion/is-prop-valid': 1.4.0
       '@emotion/react': 11.14.0(@types/react@19.2.7)(react@19.2.3)
       '@emotion/serialize': 1.3.3
@@ -2689,7 +2689,7 @@ snapshots:
       '@pandacss/is-valid-prop': 1.6.1
       csstype: 3.2.3
       react: 19.2.3
-      react-dom: 19.2.1(react@19.2.3)
+      react-dom: 19.2.3(react@19.2.3)
 
   '@corex/deepmerge@4.0.43': {}
 
@@ -3594,14 +3594,14 @@ snapshots:
       '@zag-js/types': 1.29.1
       '@zag-js/utils': 1.29.1
 
-  '@zag-js/react@1.29.1(react-dom@19.2.1(react@19.2.3))(react@19.2.3)':
+  '@zag-js/react@1.29.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@zag-js/core': 1.29.1
       '@zag-js/store': 1.29.1
       '@zag-js/types': 1.29.1
       '@zag-js/utils': 1.29.1
       react: 19.2.3
-      react-dom: 19.2.1(react@19.2.3)
+      react-dom: 19.2.3(react@19.2.3)
 
   '@zag-js/rect-utils@1.29.1': {}
 
@@ -4827,7 +4827,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nano-css@5.6.2(react-dom@19.2.1(react@19.2.3))(react@19.2.3):
+  nano-css@5.6.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
       css-tree: 1.1.3
@@ -4835,7 +4835,7 @@ snapshots:
       fastest-stable-stringify: 2.0.2
       inline-style-prefixer: 7.0.1
       react: 19.2.3
-      react-dom: 19.2.1(react@19.2.3)
+      react-dom: 19.2.3(react@19.2.3)
       rtl-css-js: 1.16.1
       stacktrace-js: 2.0.2
       stylis: 4.3.6
@@ -4848,21 +4848,21 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next-redux-wrapper@8.1.0(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3))(react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3):
+  next-redux-wrapper@8.1.0(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-redux@9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1))(react@19.2.3):
     dependencies:
-      next: 16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+      next: 16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react: 19.2.3
       react-redux: 9.2.0(@types/react@19.2.7)(react@19.2.3)(redux@5.0.1)
 
-  next-sitemap@4.2.3(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3)):
+  next-sitemap@4.2.3(next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)):
     dependencies:
       '@corex/deepmerge': 4.0.43
       '@next/env': 13.5.11
       fast-glob: 3.3.3
       minimist: 1.2.8
-      next: 16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+      next: 16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
 
-  next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.3))(react@19.2.3):
+  next@16.1.0(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       '@next/env': 16.1.0
       '@swc/helpers': 0.5.15
@@ -4870,7 +4870,7 @@ snapshots:
       caniuse-lite: 1.0.30001760
       postcss: 8.4.31
       react: 19.2.3
-      react-dom: 19.2.1(react@19.2.3)
+      react-dom: 19.2.3(react@19.2.3)
       styled-jsx: 5.1.6(@babel/core@7.28.5)(react@19.2.3)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.1.0
@@ -5018,7 +5018,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.2.1(react@19.2.3):
+  react-dom@19.2.3(react@19.2.3):
     dependencies:
       react: 19.2.3
       scheduler: 0.27.0
@@ -5039,7 +5039,7 @@ snapshots:
       react: 19.2.3
       tslib: 2.8.1
 
-  react-use@17.6.0(react-dom@19.2.1(react@19.2.3))(react@19.2.3):
+  react-use@17.6.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       '@types/js-cookie': 2.2.7
       '@xobotyi/scrollbar-width': 1.9.5
@@ -5047,9 +5047,9 @@ snapshots:
       fast-deep-equal: 3.1.3
       fast-shallow-equal: 1.0.0
       js-cookie: 2.2.1
-      nano-css: 5.6.2(react-dom@19.2.1(react@19.2.3))(react@19.2.3)
+      nano-css: 5.6.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react: 19.2.3
-      react-dom: 19.2.1(react@19.2.3)
+      react-dom: 19.2.3(react@19.2.3)
       react-universal-interface: 0.6.2(react@19.2.3)(tslib@2.8.1)
       resize-observer-polyfill: 1.5.1
       screenfull: 5.2.0
