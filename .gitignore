@@ -44,3 +44,7 @@ copilot-instructions.md
 
 # cache files
 .eslintcache
+
+# Claude Code config
+CLAUDE.md
+.claude
